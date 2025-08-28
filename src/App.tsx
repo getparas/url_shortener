@@ -1,7 +1,9 @@
+import UrlShortenerContainer from "./components/url-shortener/containers/UrlShortenerContainer";
+
 function App() {
   return (
     <>
-      <div className="text-3xl font-bold">URL Shortener</div>
+      <UrlShortenerContainer />;
     </>
   );
 }
